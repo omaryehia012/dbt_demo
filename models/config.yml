@@ -1,0 +1,10 @@
+sources:
+  - name: Landing
+    database: tamer-group-bi  # Replace with your actual database name
+    schema: RECEIVABLES  # Replace with your actual schema name
+
+    tables:
+      - name: TMR_FOLLOWUP
+        description: This report is customized to store additional information about invoices within the Tamer group. We've created a Business Intelligence (BI) version of the Tamer Followup report, which includes all the same columns as before.
+
+

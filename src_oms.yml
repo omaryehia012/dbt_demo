@@ -1,0 +1,7 @@
+sources:
+  - name: Landing
+    database: RECEIVABLES
+    schema: :tamer-group-bi
+    tables:
+      - name: source
+        identifier: :TMR_FOLLOWUP

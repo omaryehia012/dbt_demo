@@ -1,1 +1,1 @@
-SELECT * FROM `tamer-group-bi.RECEIVABLES.TMR_FOLLOWUP_V` LIMIT 1000
+select * from {{ source('Landing', 'TMR_FOLLOWUP') }} limit 1000
